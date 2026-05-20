@@ -28,13 +28,20 @@ jobs:
       - name: Set up Pages
         uses: actions/configure-pages@v5
 
-      - name: Build static preview
-        run: python scripts/build_pages.py
+      - name: Prepare temporary root preview artifact
+        run: |
+          mkdir -p .pages-preview/frontend .pages-preview/data .pages-preview/config
+          cp index.html announcement.html internal_insights.html DEPLOYMENT_NOTES.md README.md .nojekyll .pages-preview/
+          cp -R frontend/src .pages-preview/frontend/src
+          cp frontend/index.html frontend/announcement.html frontend/internal_insights.html .pages-preview/frontend/
+          cp -R data/analysis .pages-preview/data/analysis
+          cp -R data/processed .pages-preview/data/processed
+          cp config/concern_categories.yaml .pages-preview/config/concern_categories.yaml
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: .pages-preview
 
       - name: Deploy to GitHub Pages
         id: deployment
