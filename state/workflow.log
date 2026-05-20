@@ -1,0 +1,11 @@
+2026-05-06T07:39:15.471345+00:00 Workflow started
+2026-05-06T07:39:15.472747+00:00 Sample mode enabled; skipping scrape.
+2026-05-06T07:39:15.473790+00:00 Step 2/5 normalization started
+2026-05-06T07:39:15.478750+00:00 Normalization finished records=0 errors=0
+2026-05-06T07:39:15.479660+00:00 Step 3/5 analysis started
+2026-05-06T07:39:15.525240+00:00 Analysis finished comments=0
+2026-05-06T07:39:15.525908+00:00 Step 4/5 reports started
+2026-05-06T07:39:15.596832+00:00 Reports finished count=10
+2026-05-06T07:39:15.597503+00:00 Step 5/5 dashboard preparation started
+2026-05-06T07:39:15.598354+00:00 Dashboard preparation finished
+2026-05-06T07:39:15.598842+00:00 Workflow completed successfully

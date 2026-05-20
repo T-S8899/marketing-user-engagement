@@ -1,0 +1,29 @@
+# Fill this file before implementing scraper execution.
+# Never hardcode actor IDs in Python code.
+
+# config/apify_actors.yaml
+
+tiktok:
+  profile_actor: "clockworks~tiktok-profile-scraper"
+  comments_actor: "clockworks~tiktok-comments-scraper"
+
+instagram:
+  posts_actor: "apify~instagram-post-scraper"
+  comments_actor: "apify~instagram-comment-scraper"
+
+x:
+  main_actor: "apidojo~twitter-scraper-lite"
+  fallback_replies_actor: "fastcrawler~twitter-reply-scraper-0-2-1k-tweets-pay-per-result-2025"
+
+app_store:
+  actor: "agents~appstore-reviews"
+  default_input:
+    appIds:
+      - "1377706766"
+    country: "us"
+    sort: "mostRecent"
+    maxReviews: 100
+# Optional placeholders for future actor input defaults.
+defaults:
+  timeout_seconds: 0
+  max_items: 0

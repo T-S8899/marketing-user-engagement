@@ -1,0 +1,351 @@
+:root {
+  --internal-bg: var(--brand-surface, #f7fbfa);
+  --internal-panel: #ffffff;
+  --internal-panel-soft: #eef8f8;
+  --internal-ink: var(--brand-text, #142f36);
+  --internal-muted: var(--brand-muted, #637b80);
+  --internal-line: var(--brand-border, #d9ecec);
+  --internal-accent: var(--brand-primary, #00afc3);
+  --internal-warning: #b87518;
+  --internal-risk: #bf4d45;
+  --internal-success: #0b9b7c;
+  --internal-radius: 22px;
+  --internal-shadow: var(--brand-shadow, 0 18px 48px rgba(0, 111, 124, 0.12));
+}
+
+body {
+  background: linear-gradient(180deg, #ffffff 0%, var(--internal-bg) 100%);
+  color: var(--internal-ink);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.internal-shell {
+  min-height: 100vh;
+}
+
+.internal-page {
+  display: grid;
+  gap: 14px;
+  margin-inline: auto;
+  max-width: 1440px;
+  padding: 18px;
+}
+
+.briefing-hero {
+  align-items: end;
+  background: linear-gradient(135deg, var(--brand-secondary, #006b78), #12353d 60%, #0f2930);
+  border-radius: 28px;
+  color: #f6ffff;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: clamp(22px, 4vw, 38px);
+  position: relative;
+}
+
+.briefing-hero::after {
+  background: radial-gradient(circle, color-mix(in srgb, var(--internal-accent) 42%, transparent), transparent 62%);
+  content: "";
+  height: 300px;
+  inset-inline-end: -90px;
+  position: absolute;
+  top: -120px;
+  width: 300px;
+}
+
+.briefing-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.internal-kicker,
+.internal-pill,
+.card-label,
+.priority {
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  padding: 6px 10px;
+  text-transform: uppercase;
+}
+
+.internal-kicker {
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.briefing-hero h1 {
+  font-size: clamp(38px, 6vw, 72px);
+  letter-spacing: 0;
+  line-height: 0.98;
+  margin: 12px 0 8px;
+}
+
+.briefing-hero p {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 18px;
+  margin: 0;
+  max-width: 760px;
+}
+
+.briefing-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.briefing-meta span {
+  background: rgba(255, 255, 255, 0.11);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 12px;
+  padding: 7px 10px;
+}
+
+.internal-dashboard-link {
+  background: #ffffff;
+  border-radius: 999px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  color: var(--brand-secondary, #006b78);
+  font-weight: 850;
+  padding: 12px 16px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.briefing-warning {
+  align-items: center;
+  background: #fff8ea;
+  border: 1px solid #f0d39a;
+  border-radius: 18px;
+  color: #6b4a13;
+  display: flex;
+  gap: 10px;
+  padding: 10px 14px;
+}
+
+.briefing-stats,
+.briefing-grid,
+.team-board,
+.evidence-strip {
+  display: grid;
+  gap: 12px;
+}
+
+.briefing-stats {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.briefing-grid {
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+}
+
+.briefing-panel,
+.briefing-metric,
+.briefing-card,
+.team-card,
+.evidence-card,
+.internal-empty-state {
+  background: var(--internal-panel);
+  border: 1px solid var(--internal-line);
+  border-radius: var(--internal-radius);
+  box-shadow: var(--internal-shadow);
+}
+
+.briefing-panel {
+  padding: 16px;
+}
+
+.briefing-metric,
+.briefing-card,
+.team-card,
+.evidence-card,
+.internal-empty-state {
+  padding: 14px;
+}
+
+.briefing-metric span,
+.internal-section-heading span {
+  color: var(--internal-muted);
+  font-size: 12px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.briefing-metric strong {
+  display: block;
+  font-size: clamp(24px, 3vw, 34px);
+  margin: 3px 0;
+}
+
+.briefing-metric p,
+.briefing-card p,
+.team-card p,
+.evidence-card small,
+.internal-empty-state,
+.internal-section-heading p {
+  color: var(--internal-muted);
+}
+
+.internal-section-heading {
+  margin-bottom: 12px;
+}
+
+.internal-section-heading h2 {
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1;
+  margin: 4px 0;
+}
+
+.internal-section-heading p {
+  margin: 0;
+}
+
+.briefing-card-list {
+  display: grid;
+  gap: 10px;
+}
+
+.briefing-card {
+  border-inline-start: 5px solid var(--internal-accent);
+}
+
+.briefing-card.success {
+  border-inline-start-color: var(--internal-success);
+}
+
+.briefing-card.risk {
+  border-inline-start-color: var(--internal-risk);
+}
+
+.briefing-card h3,
+.team-card h3 {
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 8px 0;
+}
+
+.briefing-card p,
+.team-card p,
+.evidence-card p {
+  margin: 7px 0;
+}
+
+.card-row {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.card-label,
+.internal-pill {
+  background: color-mix(in srgb, var(--internal-accent) 14%, white);
+  color: color-mix(in srgb, var(--internal-accent) 58%, #102019);
+}
+
+.internal-pill.soft {
+  background: var(--internal-panel-soft);
+  color: var(--internal-muted);
+}
+
+.priority {
+  color: #fff;
+}
+
+.priority.high {
+  background: var(--internal-risk);
+}
+
+.priority.medium {
+  background: var(--internal-warning);
+}
+
+.priority.low {
+  background: var(--internal-muted);
+}
+
+.team-board {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.team-card {
+  display: grid;
+  gap: 8px;
+}
+
+.team-card details {
+  background: var(--internal-panel-soft);
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.team-card summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  font-weight: 800;
+  list-style: none;
+}
+
+.team-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.evidence-strip {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.evidence-card p {
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.internal-empty {
+  padding: 24px;
+}
+
+@media (max-width: 1100px) {
+  .briefing-stats,
+  .briefing-grid,
+  .team-board,
+  .evidence-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .internal-page {
+    padding: 12px;
+  }
+
+  .briefing-hero {
+    align-items: start;
+    display: grid;
+  }
+
+  .internal-dashboard-link {
+    justify-self: start;
+  }
+
+  .briefing-warning,
+  .briefing-stats,
+  .briefing-grid,
+  .team-board,
+  .evidence-strip {
+    grid-template-columns: 1fr;
+  }
+}

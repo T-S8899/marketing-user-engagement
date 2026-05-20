@@ -1,0 +1,122 @@
+# Central place for configurable analysis behavior.
+# Keep thresholds and rule switches here instead of hardcoding them in analysis code.
+
+sentiment:
+  enabled: true
+  method: "lexicon"
+  positive_keywords:
+    - "good"
+    - "great"
+    - "excellent"
+    - "love"
+    - "liked"
+    - "helpful"
+    - "fast"
+    - "easy"
+    - "useful"
+    - "recommend"
+    - "perfect"
+    - "amazing"
+    - "جيد"
+    - "ممتاز"
+    - "رائع"
+    - "احب"
+    - "سهل"
+    - "سريع"
+    - "مفيد"
+  negative_keywords:
+    - "bad"
+    - "poor"
+    - "hate"
+    - "broken"
+    - "bug"
+    - "issue"
+    - "problem"
+    - "slow"
+    - "expensive"
+    - "difficult"
+    - "confusing"
+    - "crash"
+    - "terrible"
+    - "سيء"
+    - "مشكلة"
+    - "بطيء"
+    - "غالي"
+    - "صعب"
+    - "يتعطل"
+
+urgency:
+  enabled: true
+  keywords:
+    - "urgent"
+    - "immediately"
+    - "asap"
+    - "now"
+    - "broken"
+    - "crash"
+    - "cannot"
+    - "can't"
+    - "refund"
+    - "scam"
+    - "fraud"
+    - "security"
+    - "privacy"
+    - "عاجل"
+    - "فورا"
+    - "الآن"
+    - "احتيال"
+    - "استرجاع"
+    - "خصوصية"
+    - "امان"
+  min_engagement_for_urgent: 50
+  negative_sentiment_is_urgent: false
+
+aggregation:
+  top_n_themes: 25
+  minimum_sample_size: 1
+  emerging_recent_days: 14
+  emerging_min_recent_count: 3
+  emerging_growth_ratio: 1.5
+
+keywords:
+  min_length: 3
+  top_n: 100
+  stopwords:
+    - "the"
+    - "and"
+    - "for"
+    - "with"
+    - "this"
+    - "that"
+    - "you"
+    - "your"
+    - "are"
+    - "was"
+    - "were"
+    - "في"
+    - "من"
+    - "على"
+    - "الى"
+    - "إلى"
+    - "عن"
+    - "هذا"
+    - "هذه"
+    - "كان"
+
+output:
+  write_csv: true
+  write_json: true
+
+llm:
+  enabled: false
+  provider: "openai_compatible"
+  api_key_env: "OPENAI_API_KEY"
+  base_url: "https://api.openai.com/v1"
+  model: ""
+  max_records: 50
+  batch_size: 10
+  retry_limit: 2
+  timeout_seconds: 60
+  cache_path: "data/analysis/cache/llm_comment_analysis_cache.json"
+  temperature: 0
+  max_output_tokens: 1200

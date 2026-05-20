@@ -1,0 +1,38 @@
+# config/brands.yaml
+
+# Fill this file before implementing scrapers or analysis.
+# Do not hardcode brands, competitor names, or platform accounts anywhere else.
+
+primary_brand:
+  name: "telgani"
+  display_name: "Telgani"
+  description: "Car rental marketplace aggregator in Saudi Arabia"
+
+competitors: []
+
+# You should fill competitors like this later:
+# competitors:
+#   - name: "competitor_slug"
+#     display_name: "Competitor Name"
+#     description: "Short description"
+
+platform_targets:
+  x:
+    - brand: "telgani"
+      account: "telgani"
+      role: "primary"
+
+  tiktok:
+    - brand: "telgani"
+      account: "telganiapp"
+      role: "primary"
+
+  instagram:
+    - brand: "telgani"
+      account: "telgani"
+      role: "primary"
+
+  app_store:
+    - brand: "telgani"
+      account: "1377706766"  # App ID
+      role: "primary"

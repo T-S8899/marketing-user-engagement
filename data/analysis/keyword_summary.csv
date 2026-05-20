@@ -1,0 +1,96 @@
+﻿keyword,comments_count,platforms,brands,avg_sentiment_score,urgent_count,example_record_id,example_text
+booking,3,"app_store, tiktok, x",telgani,0.0,2,sample-003,The booking was easy and the app is fast. I would recommend it.
+app,2,"app_store, tiktok",telgani,0.0,1,sample-003,The booking was easy and the app is fast. I would recommend it.
+but,2,"app_store, tiktok",telgani,1.0,0,sample-008,"Great selection of cars and the interface is useful, but support response can be faster."
+good,2,"instagram, tiktok",telgani,0.5,1,sample-006,The car condition was not good. It smelled bad and had visible damage.
+response,2,"app_store, x",telgani,0.5,1,sample-008,"Great selection of cars and the interface is useful, but support response can be faster."
+توضيح,2,"instagram, x",telgani,0.5,0,sample-002,السيارة وصلت متأخرة والحجز تغير بدون توضيح كافي.
+about,1,app_store,telgani,-1.0,0,sample-012,The app crashed after payment and I was worried about the booking confirmation.
+after,1,app_store,telgani,-1.0,0,sample-012,The app crashed after payment and I was worried about the booking confirmation.
+anyone,1,x,telgani,0.0,1,sample-009,Urgent: I cannot reach anyone and my booking is today. Need response now.
+bad,1,instagram,telgani,0.0,1,sample-006,The car condition was not good. It smelled bad and had visible damage.
+before,1,tiktok,telgani,1.0,0,sample-011,"Good prices, but please show delivery time before checkout."
+can,1,app_store,telgani,1.0,0,sample-008,"Great selection of cars and the interface is useful, but support response can be faster."
+cannot,1,x,telgani,0.0,1,sample-009,Urgent: I cannot reach anyone and my booking is today. Need response now.
+car,1,instagram,telgani,0.0,1,sample-006,The car condition was not good. It smelled bad and had visible damage.
+cars,1,app_store,telgani,1.0,0,sample-008,"Great selection of cars and the interface is useful, but support response can be faster."
+charged,1,app_store,telgani,-1.0,1,sample-004,I was charged an extra fee and the refund process was confusing.
+checkout,1,tiktok,telgani,1.0,0,sample-011,"Good prices, but please show delivery time before checkout."
+condition,1,instagram,telgani,0.0,1,sample-006,The car condition was not good. It smelled bad and had visible damage.
+confirmation,1,app_store,telgani,-1.0,0,sample-012,The app crashed after payment and I was worried about the booking confirmation.
+confusing,1,app_store,telgani,-1.0,1,sample-004,I was charged an extra fee and the refund process was confusing.
+crashed,1,app_store,telgani,-1.0,0,sample-012,The app crashed after payment and I was worried about the booking confirmation.
+damage,1,instagram,telgani,0.0,1,sample-006,The car condition was not good. It smelled bad and had visible damage.
+delivery,1,tiktok,telgani,1.0,0,sample-011,"Good prices, but please show delivery time before checkout."
+easy,1,tiktok,telgani,1.0,1,sample-003,The booking was easy and the app is fast. I would recommend it.
+extra,1,app_store,telgani,-1.0,1,sample-004,I was charged an extra fee and the refund process was confusing.
+fast,1,tiktok,telgani,1.0,1,sample-003,The booking was easy and the app is fast. I would recommend it.
+faster,1,app_store,telgani,1.0,0,sample-008,"Great selection of cars and the interface is useful, but support response can be faster."
+fee,1,app_store,telgani,-1.0,1,sample-004,I was charged an extra fee and the refund process was confusing.
+great,1,app_store,telgani,1.0,0,sample-008,"Great selection of cars and the interface is useful, but support response can be faster."
+had,1,instagram,telgani,0.0,1,sample-006,The car condition was not good. It smelled bad and had visible damage.
+interface,1,app_store,telgani,1.0,0,sample-008,"Great selection of cars and the interface is useful, but support response can be faster."
+need,1,x,telgani,0.0,1,sample-009,Urgent: I cannot reach anyone and my booking is today. Need response now.
+not,1,instagram,telgani,0.0,1,sample-006,The car condition was not good. It smelled bad and had visible damage.
+now,1,x,telgani,0.0,1,sample-009,Urgent: I cannot reach anyone and my booking is today. Need response now.
+payment,1,app_store,telgani,-1.0,0,sample-012,The app crashed after payment and I was worried about the booking confirmation.
+please,1,tiktok,telgani,1.0,0,sample-011,"Good prices, but please show delivery time before checkout."
+prices,1,tiktok,telgani,1.0,0,sample-011,"Good prices, but please show delivery time before checkout."
+process,1,app_store,telgani,-1.0,1,sample-004,I was charged an extra fee and the refund process was confusing.
+reach,1,x,telgani,0.0,1,sample-009,Urgent: I cannot reach anyone and my booking is today. Need response now.
+recommend,1,tiktok,telgani,1.0,1,sample-003,The booking was easy and the app is fast. I would recommend it.
+refund,1,app_store,telgani,-1.0,1,sample-004,I was charged an extra fee and the refund process was confusing.
+selection,1,app_store,telgani,1.0,0,sample-008,"Great selection of cars and the interface is useful, but support response can be faster."
+show,1,tiktok,telgani,1.0,0,sample-011,"Good prices, but please show delivery time before checkout."
+smelled,1,instagram,telgani,0.0,1,sample-006,The car condition was not good. It smelled bad and had visible damage.
+support,1,app_store,telgani,1.0,0,sample-008,"Great selection of cars and the interface is useful, but support response can be faster."
+time,1,tiktok,telgani,1.0,0,sample-011,"Good prices, but please show delivery time before checkout."
+today,1,x,telgani,0.0,1,sample-009,Urgent: I cannot reach anyone and my booking is today. Need response now.
+urgent,1,x,telgani,0.0,1,sample-009,Urgent: I cannot reach anyone and my booking is today. Need response now.
+useful,1,app_store,telgani,1.0,0,sample-008,"Great selection of cars and the interface is useful, but support response can be faster."
+visible,1,instagram,telgani,0.0,1,sample-006,The car condition was not good. It smelled bad and had visible damage.
+worried,1,app_store,telgani,-1.0,0,sample-012,The app crashed after payment and I was worried about the booking confirmation.
+would,1,tiktok,telgani,1.0,1,sample-003,The booking was easy and the app is fast. I would recommend it.
+أتمنى,1,x,telgani,1.0,0,sample-005,ممتاز وسهل، لكن أتمنى توضيح التأمين والرسوم قبل الدفع.
+أختار,1,tiktok,telgani,0.0,0,sample-007,ليش السعر يتغير بعد ما أختار السيارة؟ هذا يقلل الثقة.
+أرسلت,1,x,telgani,0.0,0,sample-001,خدمة العملاء بطيئة جدا، أرسلت لهم أكثر من مرة وما وصلني رد واضح.
+أكثر,1,x,telgani,0.0,0,sample-001,خدمة العملاء بطيئة جدا، أرسلت لهم أكثر من مرة وما وصلني رد واضح.
+أوضح,1,instagram,telgani,0.0,0,sample-010,التطبيق مفيد، بس نحتاج شرح أوضح عن الاسترجاع إذا انلغى الحجز.
+إذا,1,instagram,telgani,0.0,0,sample-010,التطبيق مفيد، بس نحتاج شرح أوضح عن الاسترجاع إذا انلغى الحجز.
+الاسترجاع,1,instagram,telgani,0.0,0,sample-010,التطبيق مفيد، بس نحتاج شرح أوضح عن الاسترجاع إذا انلغى الحجز.
+التأمين,1,x,telgani,1.0,0,sample-005,ممتاز وسهل، لكن أتمنى توضيح التأمين والرسوم قبل الدفع.
+التطبيق,1,instagram,telgani,0.0,0,sample-010,التطبيق مفيد، بس نحتاج شرح أوضح عن الاسترجاع إذا انلغى الحجز.
+الثقة,1,tiktok,telgani,0.0,0,sample-007,ليش السعر يتغير بعد ما أختار السيارة؟ هذا يقلل الثقة.
+الحجز,1,instagram,telgani,0.0,0,sample-010,التطبيق مفيد، بس نحتاج شرح أوضح عن الاسترجاع إذا انلغى الحجز.
+الدفع,1,x,telgani,1.0,0,sample-005,ممتاز وسهل، لكن أتمنى توضيح التأمين والرسوم قبل الدفع.
+السعر,1,tiktok,telgani,0.0,0,sample-007,ليش السعر يتغير بعد ما أختار السيارة؟ هذا يقلل الثقة.
+السيارة,1,instagram,telgani,0.0,0,sample-002,السيارة وصلت متأخرة والحجز تغير بدون توضيح كافي.
+السيارة؟,1,tiktok,telgani,0.0,0,sample-007,ليش السعر يتغير بعد ما أختار السيارة؟ هذا يقلل الثقة.
+العملاء,1,x,telgani,0.0,0,sample-001,خدمة العملاء بطيئة جدا، أرسلت لهم أكثر من مرة وما وصلني رد واضح.
+انلغى,1,instagram,telgani,0.0,0,sample-010,التطبيق مفيد، بس نحتاج شرح أوضح عن الاسترجاع إذا انلغى الحجز.
+بدون,1,instagram,telgani,0.0,0,sample-002,السيارة وصلت متأخرة والحجز تغير بدون توضيح كافي.
+بطيئة,1,x,telgani,0.0,0,sample-001,خدمة العملاء بطيئة جدا، أرسلت لهم أكثر من مرة وما وصلني رد واضح.
+بعد,1,tiktok,telgani,0.0,0,sample-007,ليش السعر يتغير بعد ما أختار السيارة؟ هذا يقلل الثقة.
+تغير,1,instagram,telgani,0.0,0,sample-002,السيارة وصلت متأخرة والحجز تغير بدون توضيح كافي.
+جدا،,1,x,telgani,0.0,0,sample-001,خدمة العملاء بطيئة جدا، أرسلت لهم أكثر من مرة وما وصلني رد واضح.
+خدمة,1,x,telgani,0.0,0,sample-001,خدمة العملاء بطيئة جدا، أرسلت لهم أكثر من مرة وما وصلني رد واضح.
+شرح,1,instagram,telgani,0.0,0,sample-010,التطبيق مفيد، بس نحتاج شرح أوضح عن الاسترجاع إذا انلغى الحجز.
+قبل,1,x,telgani,1.0,0,sample-005,ممتاز وسهل، لكن أتمنى توضيح التأمين والرسوم قبل الدفع.
+كافي,1,instagram,telgani,0.0,0,sample-002,السيارة وصلت متأخرة والحجز تغير بدون توضيح كافي.
+لكن,1,x,telgani,1.0,0,sample-005,ممتاز وسهل، لكن أتمنى توضيح التأمين والرسوم قبل الدفع.
+لهم,1,x,telgani,0.0,0,sample-001,خدمة العملاء بطيئة جدا، أرسلت لهم أكثر من مرة وما وصلني رد واضح.
+ليش,1,tiktok,telgani,0.0,0,sample-007,ليش السعر يتغير بعد ما أختار السيارة؟ هذا يقلل الثقة.
+متأخرة,1,instagram,telgani,0.0,0,sample-002,السيارة وصلت متأخرة والحجز تغير بدون توضيح كافي.
+مرة,1,x,telgani,0.0,0,sample-001,خدمة العملاء بطيئة جدا، أرسلت لهم أكثر من مرة وما وصلني رد واضح.
+مفيد،,1,instagram,telgani,0.0,0,sample-010,التطبيق مفيد، بس نحتاج شرح أوضح عن الاسترجاع إذا انلغى الحجز.
+ممتاز,1,x,telgani,1.0,0,sample-005,ممتاز وسهل، لكن أتمنى توضيح التأمين والرسوم قبل الدفع.
+نحتاج,1,instagram,telgani,0.0,0,sample-010,التطبيق مفيد، بس نحتاج شرح أوضح عن الاسترجاع إذا انلغى الحجز.
+واضح,1,x,telgani,0.0,0,sample-001,خدمة العملاء بطيئة جدا، أرسلت لهم أكثر من مرة وما وصلني رد واضح.
+والحجز,1,instagram,telgani,0.0,0,sample-002,السيارة وصلت متأخرة والحجز تغير بدون توضيح كافي.
+والرسوم,1,x,telgani,1.0,0,sample-005,ممتاز وسهل، لكن أتمنى توضيح التأمين والرسوم قبل الدفع.
+وسهل،,1,x,telgani,1.0,0,sample-005,ممتاز وسهل، لكن أتمنى توضيح التأمين والرسوم قبل الدفع.
+وصلت,1,instagram,telgani,0.0,0,sample-002,السيارة وصلت متأخرة والحجز تغير بدون توضيح كافي.
+وصلني,1,x,telgani,0.0,0,sample-001,خدمة العملاء بطيئة جدا، أرسلت لهم أكثر من مرة وما وصلني رد واضح.
+وما,1,x,telgani,0.0,0,sample-001,خدمة العملاء بطيئة جدا، أرسلت لهم أكثر من مرة وما وصلني رد واضح.
+يتغير,1,tiktok,telgani,0.0,0,sample-007,ليش السعر يتغير بعد ما أختار السيارة؟ هذا يقلل الثقة.
+يقلل,1,tiktok,telgani,0.0,0,sample-007,ليش السعر يتغير بعد ما أختار السيارة؟ هذا يقلل الثقة.

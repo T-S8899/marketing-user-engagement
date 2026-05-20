@@ -1,0 +1,157 @@
+{
+  "locale": "ar-SA",
+  "default_language": "ar",
+  "direction": "rtl",
+  "navLabel": "Telgani customer response announcement navigation",
+  "brand_name": "Telgani",
+  "eyebrow_ar": "بناءً على تعليقاتكم",
+  "eyebrow_en": "Based on your comments",
+  "assets": {
+    "logo_path": "src/assets/telgani-logo.jpg",
+    "hero_car_image": "src/assets/telgani-icon.png",
+    "hero_sticker_image": "src/assets/telgani-icon.png"
+  },
+  "sections": {
+    "hook": "hook",
+    "features": "features",
+    "proof": "proof",
+    "final_cta": "final-cta"
+  },
+  "nav": [
+    {
+      "id": "hook",
+      "label_ar": "سمعناكم",
+      "label_en": "We heard you"
+    },
+    {
+      "id": "features",
+      "label_ar": "ردودنا",
+      "label_en": "Our responses"
+    },
+    {
+      "id": "proof",
+      "label_ar": "عروض وتحديثات",
+      "label_en": "Offers & updates"
+    }
+  ],
+  "hero": {
+    "title_ar": "سمعناكم وردّينا",
+    "subtitle_ar": "طلباتكم وملاحظاتكم تتحول إلى عروض أوضح، وجهات جديدة، وتحسينات نشتغل عليها.",
+    "body_ar": "هذه الصفحة مخصصة لإبلاغ عملاء تلقاني بما تغيّر بناءً على تعليقاتهم: طلبات عروض لوجهات وفعاليات، أو ملاحظات على الحجز، السعر، الدعم، أو حالة السيارة.",
+    "primary_cta_ar": "شوف ردودنا",
+    "secondary_cta_ar": "العروض والتحديثات",
+    "title_en": "You spoke. We responded.",
+    "subtitle_en": "Your requests and feedback are becoming clearer offers, new destinations, and improvements we are working on.",
+    "body_en": "This customer page explains how Telgani is responding to comments, from destination and event offers to complaints about booking, pricing, support, or car condition.",
+    "primary_cta_en": "See our responses",
+    "secondary_cta_en": "Offers and updates"
+  },
+  "hooks": [
+    {
+      "text_ar": "طلبتوا عروض لوجهات وفعاليات؟",
+      "text_en": "You asked for offers to destinations and events?"
+    },
+    {
+      "text_ar": "وصلتنا ملاحظاتكم على الأسعار والتفاصيل.",
+      "text_en": "We heard your notes about prices and details."
+    },
+    {
+      "text_ar": "اشتكيتم من التأخير أو الردود غير الواضحة.",
+      "text_en": "You told us about delays or unclear replies."
+    },
+    {
+      "text_ar": "وهنا نوضح وش سوّينا ووش جاي.",
+      "text_en": "Here is what we changed and what is next."
+    }
+  ],
+  "features": [
+    {
+      "title_ar": "عروض حسب طلبكم",
+      "description_ar": "إذا تكرر طلب وجهة أو فعالية، نجهز عرض أو رسالة أوضح حولها.",
+      "expanded_text_ar": "مثال: لو طلب العملاء عرض للذهاب إلى فعالية أو موسم جديد، يمكن استخدام هذه البطاقة لشرح العرض، الوجهة، مدة الحجز، وطريقة الاستفادة.",
+      "title_en": "Offers from your requests",
+      "description_en": "When a destination or event request repeats, we prepare a clearer offer around it.",
+      "expanded_text_en": "Example: if customers ask for a rental offer for a new event or destination, this card explains the offer, destination, booking window, and how to use it.",
+      "sticker_path": "src/assets/telgani-icon.png"
+    },
+    {
+      "title_ar": "توضيح الأسعار والرسوم",
+      "description_ar": "نوضح التفاصيل المهمة قبل قرار الحجز.",
+      "expanded_text_ar": "هذه البطاقة ترد على ملاحظات العملاء حول السعر، التأمين، الرسوم، أو أي نقطة تحتاج شرح قبل الدفع.",
+      "title_en": "Clearer prices and fees",
+      "description_en": "We explain key details before the booking decision.",
+      "expanded_text_en": "This responds to comments about price, insurance, fees, or anything customers need to understand before payment.",
+      "sticker_path": "src/assets/telgani-icon.png"
+    },
+    {
+      "title_ar": "متابعة أسرع عند المشكلة",
+      "description_ar": "نحوّل الشكاوى المتكررة إلى مسار رد أوضح.",
+      "expanded_text_ar": "استخدمها للرد على ملاحظات مثل تأخر الرد، تغيير الحجز، أو الحاجة إلى معرفة الخطوة القادمة.",
+      "title_en": "Faster follow-up on issues",
+      "description_en": "Repeated complaints become clearer response paths.",
+      "expanded_text_en": "Use this for feedback about slow replies, booking changes, or uncertainty about the next step.",
+      "sticker_path": "src/assets/telgani-icon.png"
+    },
+    {
+      "title_ar": "تحسين تجربة السيارة",
+      "description_ar": "نأخذ ملاحظات حالة السيارة والتسليم بجدية.",
+      "expanded_text_ar": "هذه المساحة تشرح كيف نتعامل مع ملاحظات حالة السيارة، وقت التسليم، أو أي تجربة لم تكن بالمستوى المتوقع.",
+      "title_en": "Better car experience",
+      "description_en": "We take car condition and delivery feedback seriously.",
+      "expanded_text_en": "This explains how Telgani responds to car condition, delivery time, or experience-quality comments.",
+      "sticker_path": "src/assets/telgani-icon.png"
+    }
+  ],
+  "proof": {
+    "eyebrow_ar": "أمثلة ردود للعملاء",
+    "eyebrow_en": "Customer response examples",
+    "title_ar": "عروض وتحديثات بناءً على اللي وصلنا",
+    "title_en": "Offers and updates from what we heard",
+    "note_ar": "هذه صياغات حملة قابلة للتعديل. اربط كل رسالة بعرض أو تحديث معتمد قبل النشر.",
+    "note_en": "These are editable campaign messages. Connect each message to an approved offer or update before publishing."
+  },
+  "quotes": [
+    {
+      "label_ar": "طلب عرض",
+      "text_ar": "طلبتوا عرض لمشاوير الفعاليات؟ جهزنا طريقة أوضح للحجز حسب الوجهة والوقت.",
+      "source_ar": "رسالة حملة قابلة للتعديل",
+      "label_en": "Offer request",
+      "text_en": "You asked for event-trip offers. We are making booking by destination and time clearer.",
+      "source_en": "Editable campaign message"
+    },
+    {
+      "label_ar": "رد على ملاحظة",
+      "text_ar": "وصلتنا ملاحظاتكم عن الرسوم والتأمين، وبدأنا نوضحها قبل الدفع.",
+      "source_ar": "رسالة توضيح",
+      "label_en": "Feedback response",
+      "text_en": "We heard your notes about fees and insurance, so we are making them clearer before payment.",
+      "source_en": "Clarification message"
+    },
+    {
+      "label_ar": "تحسين مستمر",
+      "text_ar": "كل تعليق يساعدنا نعرف وش نوضح، وش نصلح، وأي عرض تحتاجونه بعد.",
+      "source_ar": "رسالة ثقة",
+      "label_en": "Continuous improvement",
+      "text_en": "Every comment helps us know what to explain, what to fix, and which offer you need next.",
+      "source_en": "Trust message"
+    }
+  ],
+  "finalCta": {
+    "eyebrow_ar": "خلّونا نسمعكم",
+    "headline_ar": "عندك طلب أو ملاحظة؟",
+    "text_ar": "تابعوا تحديثات تلقاني القادمة. كل طلب متكرر أو ملاحظة واضحة تساعدنا نجهز عرض، توضيح، أو تحسين يخدمكم أفضل.",
+    "primary_cta_ar": "شوف الردود",
+    "secondary_cta_ar": "رجوع للوحة",
+    "eyebrow_en": "Keep telling us",
+    "headline_en": "Have a request or comment?",
+    "text_en": "Follow Telgani updates. Repeated requests and clear feedback help us prepare better offers, explanations, and improvements.",
+    "primary_cta_en": "See responses",
+    "secondary_cta_en": "Back to dashboard"
+  },
+  "links": {
+    "primary": "#features",
+    "secondary": "#proof",
+    "finalPrimary": "#features",
+    "finalSecondary": "./"
+  }
+}

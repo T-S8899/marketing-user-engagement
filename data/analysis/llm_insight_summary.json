@@ -1,0 +1,18 @@
+{
+  "batch_size": 10,
+  "cache_hits": 0,
+  "enabled": false,
+  "errors": [
+    "LLM analysis is disabled in config/analysis_rules.yaml."
+  ],
+  "errors_count": 0,
+  "generated_at": "2026-05-06T06:56:52.744400+00:00",
+  "max_records": 50,
+  "model": "",
+  "note": "LLM outputs are separate from rule-based analysis and do not overwrite comment_analysis.csv.",
+  "processed_count": 0,
+  "retry_limit": 2,
+  "sentiment_counts": {},
+  "status": "disabled",
+  "urgent_count": 0
+}
