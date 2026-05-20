@@ -1,0 +1,4 @@
+post_record_id,platform,scrape_run_id,raw_file_path,source_id,source_account,post_id,post_url,post_text,posted_at,posted_at_raw,likes,comments,shares,views,raw_record_hash
+post-sample-001,x,sample_run_x,data/raw/x/sample_run_x.json,src-x-1,telgani,post-x-1,https://x.com/telgani/status/1,Customer support thread,2026-05-06T08:30:00+00:00,2026-05-06,18,4,2,450,hash-001
+post-sample-002,instagram,sample_run_instagram,data/raw/instagram/sample_run_instagram.json,src-ig-1,telgani,post-ig-1,https://instagram.com/p/sample1,Booking update post,2026-05-05T15:10:00+00:00,2026-05-05,33,7,5,1200,hash-002
+post-sample-003,tiktok,sample_run_tiktok,data/raw/tiktok/sample_run_tiktok.json,src-tt-1,telganiapp,post-tt-1,https://tiktok.com/@telganiapp/video/1,App walkthrough video,2026-05-05T11:00:00+00:00,2026-05-05,92,11,18,6800,hash-003

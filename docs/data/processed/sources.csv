@@ -1,0 +1,5 @@
+source_record_id,platform,source_id,source_account,source_url,brand,brand_or_competitor,scrape_run_id,raw_file_path
+source-x,x,src-x-1,telgani,https://x.com/telgani,telgani,telgani,sample_run_x,data/raw/x/sample_run_x.json
+source-instagram,instagram,src-ig-1,telgani,https://instagram.com/telgani,telgani,telgani,sample_run_instagram,data/raw/instagram/sample_run_instagram.json
+source-tiktok,tiktok,src-tt-1,telganiapp,https://tiktok.com/@telganiapp,telgani,telgani,sample_run_tiktok,data/raw/tiktok/sample_run_tiktok.json
+source-app-store,app_store,app-1377706766,1377706766,https://apps.apple.com/app/id1377706766,telgani,telgani,sample_run_app_store,data/raw/app_store/sample_run_app_store.json

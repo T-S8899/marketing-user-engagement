@@ -1,0 +1,13 @@
+run_id,platform,brand_or_competitor,source_account,actor_id,dataset_id,record_index,record_key,raw_file_path
+sample_run_x,x,telgani,telgani,sample-x-actor,sample-dataset-x,0,c-x-1,data/raw/x/sample_run_x.json
+sample_run_x,x,telgani,telgani,sample-x-actor,sample-dataset-x,1,c-x-2,data/raw/x/sample_run_x.json
+sample_run_x,x,telgani,telgani,sample-x-actor,sample-dataset-x,2,c-x-3,data/raw/x/sample_run_x.json
+sample_run_instagram,instagram,telgani,telgani,sample-instagram-actor,sample-dataset-instagram,0,c-ig-1,data/raw/instagram/sample_run_instagram.json
+sample_run_instagram,instagram,telgani,telgani,sample-instagram-actor,sample-dataset-instagram,1,c-ig-2,data/raw/instagram/sample_run_instagram.json
+sample_run_instagram,instagram,telgani,telgani,sample-instagram-actor,sample-dataset-instagram,2,c-ig-3,data/raw/instagram/sample_run_instagram.json
+sample_run_tiktok,tiktok,telgani,telganiapp,sample-tiktok-actor,sample-dataset-tiktok,0,c-tt-1,data/raw/tiktok/sample_run_tiktok.json
+sample_run_tiktok,tiktok,telgani,telganiapp,sample-tiktok-actor,sample-dataset-tiktok,1,c-tt-2,data/raw/tiktok/sample_run_tiktok.json
+sample_run_tiktok,tiktok,telgani,telganiapp,sample-tiktok-actor,sample-dataset-tiktok,2,c-tt-3,data/raw/tiktok/sample_run_tiktok.json
+sample_run_app_store,app_store,telgani,1377706766,sample-app-store-actor,sample-dataset-app-store,0,review-1,data/raw/app_store/sample_run_app_store.json
+sample_run_app_store,app_store,telgani,1377706766,sample-app-store-actor,sample-dataset-app-store,1,review-2,data/raw/app_store/sample_run_app_store.json
+sample_run_app_store,app_store,telgani,1377706766,sample-app-store-actor,sample-dataset-app-store,2,review-3,data/raw/app_store/sample_run_app_store.json

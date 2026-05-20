@@ -1,0 +1,5 @@
+run_id,platform,brand_or_competitor,source_account,actor_id,input_json,dataset_id,records_count,status,error_message
+sample_run_x,x,telgani,telgani,sample-x-actor,"{""maxItems"":100,""dateRange"":""last_7_days""}",sample-dataset-x,3,SUCCEEDED,
+sample_run_instagram,instagram,telgani,telgani,sample-instagram-actor,"{""maxItems"":100,""dateRange"":""last_7_days""}",sample-dataset-instagram,3,SUCCEEDED,
+sample_run_tiktok,tiktok,telgani,telganiapp,sample-tiktok-actor,"{""maxItems"":100,""dateRange"":""last_7_days""}",sample-dataset-tiktok,3,SUCCEEDED,
+sample_run_app_store,app_store,telgani,1377706766,sample-app-store-actor,"{""maxReviews"":100,""sort"":""mostRecent""}",sample-dataset-app-store,3,SUCCEEDED,
