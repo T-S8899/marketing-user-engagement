@@ -1,0 +1,52 @@
+:root {
+  --font-display: "Segoe UI", Tahoma, sans-serif;
+  --font-body: "Segoe UI", Tahoma, sans-serif;
+  --color-page: var(--brand-surface, #f7fbfa);
+  --color-panel: var(--brand-card, #ffffff);
+  --color-panel-soft: #f0f8f8;
+  --color-ink: var(--brand-text, #142f36);
+  --color-muted: var(--brand-muted, #637b80);
+  --color-line: var(--brand-border, #d9ecec);
+  --color-positive: #00a883;
+  --color-neutral: #c8963f;
+  --color-negative: #d05858;
+  --color-info: var(--brand-primary, #00afc3);
+  --color-accent: var(--brand-primary, #00afc3);
+  --shadow-soft: var(--brand-shadow, 0 18px 48px rgba(0, 111, 124, 0.12));
+  --radius-sm: 14px;
+  --radius-md: var(--brand-radius, 22px);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-page);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  line-height: 1.45;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+[dir="rtl"],
+.arabic {
+  direction: rtl;
+  font-family: Tahoma, "Segoe UI", sans-serif;
+}

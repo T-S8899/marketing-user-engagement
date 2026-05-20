@@ -233,7 +233,7 @@ http://localhost:8000/
 
 The build copies the static frontend, prepared `data/analysis` and `data/processed` files, and `config/concern_categories.yaml` into `docs/`, then adjusts relative paths so the dashboard works from the GitHub Pages site root.
 
-Deployment is automated by `.github/workflows/pages.yml`. On pushes to `main`, GitHub Actions prepares a temporary root-style preview artifact from the root entry files plus the required static frontend, data, and config files. This supports quick stakeholder demos while keeping the original structured source as the source of truth. See `DEPLOYMENT_NOTES.md` for the temporary root preview note.
+Deployment is automated by `.github/workflows/pages.yml`. On pushes to `main`, GitHub Actions prepares a temporary root-style preview artifact from the root entry files, `preview-src/`, and the required data/config files. This supports quick stakeholder demos while keeping the original structured source as the source of truth. See `DEPLOYMENT_NOTES.md` for the temporary root preview note.
 
 Expected public URL:
 

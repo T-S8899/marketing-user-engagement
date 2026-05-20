@@ -1,0 +1,11 @@
+{
+  "dashboardName": "Marketing Intelligence Dashboard",
+  "brandName": "Telgani",
+  "locale": "ar-SA",
+  "currency": "SAR",
+  "logoText": "Telgani",
+  "logoPath": "preview-src/assets/telgani-logo.jpg",
+  "themeClass": "brand-telgani",
+  "dataMode": "auto",
+  "refreshHint": "Explore customer comments, sentiment, concerns, competitors, opportunities, and raw evidence in one place."
+}
